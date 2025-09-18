@@ -1,3 +1,50 @@
-*{
-    background-color: green1;
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    overflow-x: hidden;
+    
+}
+
+.main{
+    background-color:beige;
+    color:black;
+    height: 100%;
+    padding:40px;
+    width:900px;
+    margin: 0 auto;
+}
+
+h1{
+    color: orangered;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.2rem;
+
+}
+tr{
+    border-width: 4px ;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 40px;
+}
+
+form div{
+    display: flex;
+    gap: 20px;
+    align-items: start;
+    justify-content: space-between;
 }
